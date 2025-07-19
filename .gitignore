@@ -1,0 +1,24 @@
+# Laravel
+/vendor
+/node_modules
+/public/build
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+
+# Docker
+docker/mysql
+docker/data
+*.log
+
+# Vite
+resources/js/.vite
+.vite
+*.local
+
+# IDEs
+.idea
+.vscode
+.DS_Store
